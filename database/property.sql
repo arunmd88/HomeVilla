@@ -1,0 +1,12 @@
+CREATE TABLE `property` (
+  `house_id` int(11) NOT NULL,
+  `house_type` varchar(255) NOT NULL,
+  `image` text NOT NULL,
+  `rent_cost` varchar(11) NOT NULL,
+  `location` varchar(30) NOT NULL,
+  `location_description` text NOT NULL,
+  `max_capacity` varchar(100) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `contact` int(20) NOT NULL,
+  `status` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
